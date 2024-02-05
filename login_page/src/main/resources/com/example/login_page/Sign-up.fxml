@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_page.SignupController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="266.0" style="-fx-background-color: gold;">
+         <children>
+            <ImageView fitHeight="171.0" fitWidth="200.0" layoutX="35.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@data.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="74.0" layoutY="232.0" text="DVS" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="41.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+       <AnchorPane prefHeight="400.0" prefWidth="402.0">
+           <children>
+               <Label layoutX="14.0" layoutY="56.0" text="Username :">
+                   <font>
+                       <Font size="19.0" />
+                   </font>
+               </Label>
+               <Label layoutX="14.0" layoutY="124.0" text="Password  :">
+                   <font>
+                       <Font size="19.0" />
+                   </font>
+               </Label>
+               <TextField fx:id="tf_username" layoutX="133.0" layoutY="55.0" prefHeight="28.0" prefWidth="195.0" promptText="Enter your id">
+                   <cursor>
+                       <Cursor fx:constant="HAND" />
+                   </cursor>
+                   <font>
+                       <Font size="14.0" />
+                   </font>
+               </TextField>
+               <Button fx:id="button_SignUp" layoutX="86.0" layoutY="281.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="195.0" style="-fx-background-color: gold; -fx-cursor: hand;" text="SignUp" textFill="WHITE">
+                   <font>
+                       <Font name="Arial Black" size="19.0" />
+                   </font>
+               </Button>
+               <Label layoutX="79.0" layoutY="342.0" prefHeight="28.0" prefWidth="108.0" text="Alredy a user ?">
+                   <font>
+                       <Font size="16.0" />
+                   </font>
+               </Label>
+               <Button fx:id="button_login" layoutX="201.0" layoutY="340.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Login" textFill="#3227f2">
+                   <font>
+                       <Font name="Arial" size="16.0" />
+                   </font>
+               </Button>
+            <RadioButton fx:id="rb_One" layoutX="140.0" layoutY="207.0" mnemonicParsing="false" text="One">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb_Two" layoutX="140.0" layoutY="243.0" mnemonicParsing="false" text="Two">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="53.0" layoutY="172.0" text="Select Membership">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="tf_password" layoutX="133.0" layoutY="125.0" prefHeight="26.0" prefWidth="195.0" promptText="Enter your password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+           </children>
+       </AnchorPane>
+   </children>
+</HBox>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_page.Checker">
+    <children>
+    <Button fx:id="button_logout" layoutX="448.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: gold;" text="LogOut" textAlignment="CENTER">
+        <font>
+            <Font name="Arial Unicode MS" size="16.0" />
+        </font>
+    </Button>
+      <Button fx:id="button_check" layoutX="360.0" layoutY="351.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: gold; -fx-cursor: hand;" text="Check">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="cb_6" layoutX="369.0" layoutY="156.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <Label fx:id="tb_1" layoutX="224.0" layoutY="126.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_2" layoutX="224.0" layoutY="189.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_3" layoutX="224.0" layoutY="251.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_4" layoutX="224.0" layoutY="308.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_5" layoutX="412.0" layoutY="89.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_6" layoutX="412.0" layoutY="156.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_7" layoutX="412.0" layoutY="219.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tb_8" layoutX="412.0" layoutY="273.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="cb_8" layoutX="368.0" layoutY="273.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cb_7" layoutX="368.0" layoutY="219.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cb_4" layoutX="186.0" layoutY="308.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cb_2" layoutX="186.0" layoutY="189.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cb_3" layoutX="186.0" layoutY="251.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cb_5" layoutX="368.0" layoutY="89.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="cb_1" layoutX="186.0" layoutY="126.0" mnemonicParsing="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </CheckBox>
+      <Button fx:id="button_back" layoutX="14.0" layoutY="351.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: gold; -fx-cursor: hand;" text="&lt; Back">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="tb_0" layoutX="55.0" layoutY="119.0" text="name" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="68.0" text="Took Your Symptoms for">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
